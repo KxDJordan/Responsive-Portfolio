@@ -1,0 +1,390 @@
+body {
+    background-image: url("../images/intersection.png");
+ }
+ 
+ h1 {
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     color: #4aaaa5;
+     padding-left: 20px;
+     padding-top: 20px;
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+ 
+ p, a {
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777777;
+     margin: 20px 20px 0px 20px;
+     line-height: 24px;
+ }
+ 
+ #pStart, #pStart2, #pStart3 {
+     text-indent: 20px;
+ }
+ 
+ nav {
+     position: absolute;
+     float: left;
+     width: 100%;
+     left: 0;
+     right: 0;
+     top: 0;
+     height: 80px;
+     margin-bottom: 20px;
+     background-color: #ffffff;
+     border-bottom: 2px solid #cccccc;
+     z-index: 1;
+ }
+ 
+ footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 40px;
+     margin-top: 20px;
+     background-color: #666666;
+     border-top: 4px solid #4aaaa5;
+     text-align: center;
+ }
+ 
+ .nameHolder {
+     margin-left: auto;
+     margin-right: auto;
+     width: 960px;
+ }
+ 
+ 
+ .navItems {
+     margin-left: auto;
+     margin-right: auto;
+     width: 960px;
+ }
+ 
+ #nameBox {
+     background-color: #4aaaa5;
+     color: #4aaaa5;
+     margin-right: auto;
+     float: left;
+     clear: both;
+     height: 80px;
+     padding: 0px 20px 0px 20px;
+ }
+ 
+ #mainBody {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     width: 960px;
+     /* height: 1000px; */
+     background-color: #ffffff;
+     padding-bottom: 30px;
+     border: 1px solid #dddddd;
+ }
+ 
+ #splitter {
+     margin-left: 20px;
+     margin-right: 20px;
+     height: 2px;
+     background-color: #cccccc;
+ }
+ 
+ #profileImage {
+     width: 15%;
+     height: 15%;
+     float: left;
+     margin: 20px;
+ }
+ 
+ 
+ #copyRight {
+     color: white;
+     font-size: 12px;
+ }
+ 
+ #nameText {
+     color: white;
+     font-size: 24px;
+     position: relative;
+     padding: 0px;
+     margin-top: 20px;
+ }
+ 
+ #contact {
+     margin: 30px 0px 0px 0px;
+     padding: 0px 20px 0px 20px;
+     float: right;
+     border-right: 1px solid #dddddd;
+     color: #777777;
+     text-decoration: none;
+ }
+ 
+ #portfolio {
+     margin: 30px 0px 0px 0px;
+     padding: 0px 20px 0px 20px;
+     margin-top: 30px;
+     float: right;
+     color: #777777;
+     text-decoration: none;
+ }
+ 
+ #about {
+     margin: 30px 0px 0px 0px;
+     padding: 0px 20px 0px 20px;
+     float: right;
+     border-right: 1px solid #dddddd;
+     color: #777777;
+     text-decoration: none;
+ }
+ 
+ #contact.visited, #about.visted, #portfolio.visited {
+     color: #4aaaa5;
+ }
+ 
+ #nameInput, #emailInput, #messageInput {
+     margin-left: 20px;
+     border: 1px solid #dddddd;
+     margin-top: 5px;
+ }
+ 
+ #formLabel {
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777777;
+ }
+ 
+ #submitButton {
+     background-color: #4aaaa5;
+     margin: 20px 20px 0px 20px;
+     border: 1px solid #dddddd;
+ }
+ 
+ #submitText {
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #ffffff;
+     margin: 5px 10px 5px 10px;
+ }
+ 
+ /* Portfolio Styles */
+ .image1, .image2, .image3, .image4, .image5 {
+     position: relative;
+     margin: 20px 20px 20px 20px;
+     float: left;
+     text-align: center;
+ }
+ 
+ .tag1, .tag2, .tag3, .tag4, .tag5 {
+     float: left;
+     position: absolute;
+     top: 65%;
+     z-index: 1000;
+     padding: 15px;
+     width: 170px;
+     background-color: #4aaaa5;
+     font-size: 18px;
+     color: #ffffff;
+ }
+ 
+ .clearfix::after {
+     content: "."; 
+     visibility: hidden; 
+     display: block; 
+     height: 0; 
+     clear: both;
+     overflow: auto;
+ }
+  
+ 
+ 
+ 
+ 
+
+@media screen and (max-width: 640px) {
+
+    /* About me and body formatting */
+    nav {
+        position: absolute;
+        float: left;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 140px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        text-align: center;
+        z-index: 1;
+    }
+
+    #nameBox {
+        background-color: #4aaaa5;
+        color: #4aaaa5;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        float: left;
+        clear: both;
+        height: 80px;
+        padding: 0px;
+    }
+
+    .nameHolder {    
+        position: absolute;
+        top: 0px;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .bodyContainer {
+        margin-top: 160px;
+        margin-bottom: 80px;
+    }
+
+    #mainBody {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        width: 600px;
+        /* height: 1000px; */
+        background-color: #ffffff;
+        padding-bottom: 30px;
+        border: 1px solid #dddddd;
+    }
+
+    #profileImage {
+        width: 560px;
+        height: auto;
+        float: left;
+        margin: 20px;
+    }
+
+    #navContainer {
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        text-align: center;
+        width: 55%;
+    }
+
+    #about, #portfolio, #contact {
+        text-align: center;
+        position: relative;
+        float: right;
+        margin-top: 15px;
+    }
+        
+    .navItems {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+        margin-top: 80px;
+    }
+
+
+    /* Contact Me Page */
+    #nameInput, #emailInput, #messageInput {
+        margin-left: 20px;
+        border: 1px solid #dddddd;
+        margin-top: 5px;
+        width: 90%;
+    }
+
+     /* Portfolio Styles */
+    .image1, .image2, .image3, .image4, .image5 {
+        position: relative;
+        margin: 20px 20px 20px 20px;
+        float: left;
+        text-align: center;
+    }
+
+    .tag1, .tag2, .tag3, .tag4, .tag5 {
+        float: left;
+        position: absolute;
+        top: 65%;
+        z-index: 1000;
+        padding: 15px;
+        width: 170px;
+        background-color: #4aaaa5;
+        font-size: 18px;
+        color: #ffffff;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #mainBody {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 720px;
+        /* height: 1000px; */
+        background-color: #ffffff;
+        padding-bottom: 30px;
+        border: 1px solid #dddddd;
+    }
+
+    .navItems {
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+    }
+
+    #profileImage {
+        width: 25%;
+        height: 25%;
+        float: left;
+        margin: 20px;
+    }
+
+    #nameInput, #emailInput, #messageInput {
+        margin-left: 20px;
+        border: 1px solid #dddddd;
+        margin-top: 5px;
+        width: 94%;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    
+    #mainBody {
+        margin-left: 5%;
+        margin-right: 33%;
+        margin-top: 100px;
+        max-width: 520px;
+        /* height: 1000px; */
+        background-color: #ffffff;
+        padding-bottom: 30px;
+        border: 1px solid #dddddd;
+        margin-bottom: 80px;
+    }
+
+    .navItems {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 980;
+    }
+
+    #profileImage {
+        width: 25%;
+        height: 25%;
+        float: left;
+        margin: 20px;
+    }
+
+    #nameInput, #emailInput, #messageInput {
+        margin-left: 20px;
+        border: 1px solid #dddddd;
+        margin-top: 5px;
+        width: 94%;
+    }
+
+    footer {
+        z-index: 3000;
+    }
+}
